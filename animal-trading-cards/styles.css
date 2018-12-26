@@ -1,0 +1,54 @@
+/* add your CSS here */
+
+body {
+  position:absolute;
+  width: 320px;
+  height:620px;
+  padding: 10px;
+  border: 1px solid #bdb8b8;
+  margin: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 8px 8px #dfdbdb;
+}
+
+body > div {
+	float:left;
+    margin:2px;
+
+}
+img  {
+	width: 300px;
+	height: 250px;
+	margin: 1px;
+    padding: 10px;
+}
+
+.container {
+	width: 300px;
+	height: 260px;
+    border: 1px solid #bdb8b8;
+    text-align: left;
+    margin: 2px;
+    padding: 5px;
+    font:normal normal 14px/1.4 Georgia;
+    display: inline-block;
+}
+
+
+ul {
+	list-style-type: none;
+    padding: 5px;
+}
+
+li span {
+	font-weight: bold;
+}
+
+#fact {
+	font-style: italic;
+}
+
+
+
+
